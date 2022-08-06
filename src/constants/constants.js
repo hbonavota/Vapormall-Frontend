@@ -38,9 +38,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey studying programming fundamentals 💪', },
-  { year: 2018, text: 'Continue studying on my own, while doing some work in Wordpress as a freelancer', },
-  { year: 2019, text: 'I entered the IT industry as a Technical Support while I was still studying programming', },
-  { year: 2021, text: '¡Start a bootcamp with more than 800 hours of practice in real software development projects!', },
-  { year: 2022, text: 'I started working as a full MERN stack developer 😀', },
+  { year: 2017, text: '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..." ', },
+  { year: 2018, text: '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."', },
+  { year: 2019, text: '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."', },
+  { year: 2021, text: '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."', },
+  { year: 2022, text: '"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..." 😀', },
 ];

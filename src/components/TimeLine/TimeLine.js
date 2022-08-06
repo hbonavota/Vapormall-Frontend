@@ -46,9 +46,9 @@ const Timeline = () => {
     <Section id="about">
       <SectionDivider />
       <br />
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle>About us</SectionTitle>
       <SectionText>
-        My greatest virtue is my constant passion for learning, being positive and the motivation to work as a team.
+        "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
