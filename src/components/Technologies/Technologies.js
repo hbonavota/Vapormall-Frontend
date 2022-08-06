@@ -9,7 +9,7 @@ const Technologies = () => (
     <br />
     <SectionTitle> Technologies </SectionTitle>
     <SectionText>
-      I have knowledge in Frontend as in Back-end.
+      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
     </SectionText>
     <List>
       <ListItem>
