@@ -53,7 +53,7 @@ const Timeline = () => {
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
-            <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
+            <CarouselMobileScrollNode key={item.year} final={index === TOTAL_CAROUSEL_COUNT - 1}>
               <CarouselItem
                 index={index}
                 id={`carousel_item-${index}`}
@@ -67,7 +67,7 @@ const Timeline = () => {
                     height="6"
                     viewBox="0 0 208 6"
                     fill="none"
-                    xmlns="http://www.w3.org/2000">
+                    xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
                       clipRule="evenodd"
@@ -102,9 +102,9 @@ const Timeline = () => {
         </>
       </CarouselContainer>
       <CarouselButtons>
-        {TimeLineData.map((_item, index) => (
+        {TimeLineData.map((item, index) => (
           <CarouselButton
-            key={index}
+            key={`button-${item.year}`}
             index={index}
             active={activeItem}
             onClick={(e) => handleClick(e, index)}
