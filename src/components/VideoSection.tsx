@@ -1,6 +1,19 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 
 const VideoSection: React.FC = () => {
+  const iframeRef = useRef<HTMLIFrameElement>(null);
+
+  useEffect(() => {
+    // Función para cargar el iframe de manera segura
+    const loadYouTubeIframe = () => {
+      if (iframeRef.current) {
+        iframeRef.current.src = 'https://www.youtube-nocookie.com/embed/hjbZyXod3mc?enablejsapi=0';
+      }
+    };
+
+    loadYouTubeIframe();
+  }, []);
+
   return (
     <div className="flex flex-col md:flex-row items-center justify-between p-4 md:p-8 gap-6 md:gap-8">
       {/* Left side - Text content */}
@@ -17,9 +30,10 @@ const VideoSection: React.FC = () => {
       {/* Right side - YouTube video */}
       <div className="flex-1 w-full aspect-video">
         <iframe
+          ref={iframeRef}
           className="w-full h-full rounded-lg shadow-lg"
-          src="https://www.youtube.com/embed/hjbZyXod3mc"
           title="Vapormall Video"
+          loading="lazy"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         />
