@@ -7,7 +7,7 @@ const VideoSection: React.FC = () => {
     // Función para cargar el iframe de manera segura
     const loadYouTubeIframe = () => {
       if (iframeRef.current) {
-        iframeRef.current.src = 'https://www.youtube-nocookie.com/embed/hjbZyXod3mc?enablejsapi=0';
+        iframeRef.current.src = 'https://www.youtube-nocookie.com/embed/iM6HDEeTMLc?enablejsapi=0';
       }
     };
 
