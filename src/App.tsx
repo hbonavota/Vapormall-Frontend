@@ -12,15 +12,15 @@ function App() {
       {/* Contenido principal */}
       <div className="container mx-auto px-4 py-8 relative z-10">
         <header className="text-center mb-12">
-          <h1 className="text-6xl font-bold text-white mb-4 tracking-wider [text-shadow:0_0_10px_rgba(255,255,255,0.5)]">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 tracking-wider [text-shadow:0_0_10px_rgba(255,255,255,0.5)]">
             VAPORMALL
           </h1>
-          <p className="text-xl text-white/80 font-light">
+          <p className="text-lg md:text-xl text-white/80 font-light">
             Vaporwave radio station
           </p>
         </header>
 
-        <main className="bg-white/10 backdrop-blur-lg rounded-lg border border-white/20 shadow-[0_0_15px_rgba(255,255,255,0.1)]">
+        <main className="bg-white/10 backdrop-blur-lg rounded-lg border border-white/20 shadow-[0_0_15px_rgba(255,255,255,0.1)] overflow-hidden">
           <VideoSection />
         </main>
 
