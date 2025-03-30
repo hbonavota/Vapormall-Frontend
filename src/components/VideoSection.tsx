@@ -18,7 +18,7 @@ const VideoSection: React.FC = () => {
       <div className="flex-1 w-full aspect-video">
         <iframe
           className="w-full h-full rounded-lg shadow-lg"
-          src="https://www.youtube.com/embed/hjbZyXod3mc"
+          src="https://www.youtube.com/embed/iM6HDEeTMLc"
           title="Vapormall Video"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
