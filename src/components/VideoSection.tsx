@@ -32,6 +32,7 @@ const VideoSection: React.FC = () => {
         <iframe
           ref={iframeRef}
           className="w-full h-full rounded-lg shadow-lg"
+          src="https://www.youtube.com/embed/iM6HDEeTMLc"
           title="Vapormall Video"
           loading="lazy"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
