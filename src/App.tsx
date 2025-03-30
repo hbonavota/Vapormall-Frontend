@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import VideoSection from './components/VideoSection'
 
 function App() {
   return (
@@ -15,26 +16,16 @@ function App() {
             VAPORMALL
           </h1>
           <p className="text-xl text-white/80 font-light">
-            Tu destino para la nostalgia digital
+            Vaporwave radio station
           </p>
         </header>
 
-        <main className="flex flex-col h-[calc(100vh-200px)]">
-          {/* Componente 1 */}
-          <div className="flex-1 bg-white/10 backdrop-blur-lg rounded-lg p-4 border border-white/20 hover:border-pink-400 transition-all duration-300 mb-4 shadow-[0_0_15px_rgba(255,255,255,0.1)]">
-            <h2 className="text-xl font-bold text-white mb-2">Componente 1</h2>
-            <p className="text-white/80 text-sm">Contenido del primer componente</p>
-          </div>
-
-          {/* Componente 2 */}
-          <div className="flex-1 bg-white/10 backdrop-blur-lg rounded-lg p-4 border border-white/20 hover:border-cyan-400 transition-all duration-300 shadow-[0_0_15px_rgba(255,255,255,0.1)]">
-            <h2 className="text-xl font-bold text-white mb-2">Componente 2</h2>
-            <p className="text-white/80 text-sm">Contenido del segundo componente</p>
-          </div>
+        <main className="bg-white/10 backdrop-blur-lg rounded-lg border border-white/20 shadow-[0_0_15px_rgba(255,255,255,0.1)]">
+          <VideoSection />
         </main>
 
         <footer className="mt-8 text-center text-white/60">
-          <p>© 2024 VapormallFE - Todos los derechos reservados</p>
+          <p>© 2024 Vapormall Team</p>
         </footer>
       </div>
     </div>
