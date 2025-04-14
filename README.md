@@ -39,3 +39,4 @@ This project uses:
 - TypeScript for type safety
 - Tailwind CSS for styling
 - ESLint for code quality
+Deploy via Jenkins
